@@ -1,4 +1,3 @@
-
 Bionimbus/UIC Cloud  How To
 =====================================
 
@@ -15,35 +14,12 @@ Bionimbus/UIC Cloud  How To
 
 For more information, see http://www.bionimbus.org/tutorials/
 
-### How to transfer data between OICR and Bionimbus Cloud
-
-At the moment, Quang Trinh <quang.trinh@oicr.on.ca> is the only person setup for transferring data between OICR and Bionimbus Cloud2.  
-
-To push data from OICR to Bionimbus Cloud2:
-
-1. login to xfer-cloud.res.oicr.on.ca.  
-
-2. Use rsync to 'sync' data from OICR to Bionimbus Cloud2.  for example
-
-> rsync --progress -avu -B 8192 --stats -hh /source/path/data  quang@74.114.99.130::quang/
-
-The modencode data folder on Bionimbus Cloud2 is: '''/glusterfs/data/modencode/modencode-dcc/'''  ( on Bionimbus Cloud1, the path is '''/glusterfs/public/bionimbus/modencode-dcc/''' )
-
-
-### How to get previous peakcall results from Bionimbus Cloud1 on Bionimbus Cloud2
-
-1. Login to a VM on Cloud2
-
-2. Fetch data from Cloud1 by running this command:
-
->/cloudconf/list-bionimbus-data qtrinh/cloud1.modencode-dcc/ 
-
-For more information, see http://www.bionimbus.org/tutorials/modencode-dcc-download-instructions/
 
 ### How to create a key-pair on Bionimbus Cloud
 On the login bionimbus cloud ( i.e., '''login.bionimbus.org''' ) do 
- > euca-add-keypair bionimbus > bionimbus.priv     # create a keypair
- > cp bionimbus.priv  ~/.ssh/id_rsa                # copy your private key to .ssh dir
+  \> euca-add-keypair bionimbus > bionimbus.priv     # create a keypair
+ 
+  \> cp bionimbus.priv  ~/.ssh/id_rsa                # copy your private key to .ssh dir
 
 ### How to create a VM and setup environments on Bionimbus Cloud
 1. For how to create a VM on Bionimbus Cloud, login the VM and mount the shared file systems on the VM - see http://www.bionimbus.org/tutorials/bionimbus-cloud-instructions/
