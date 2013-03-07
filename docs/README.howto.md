@@ -17,10 +17,11 @@ For more information, see http://www.bionimbus.org/tutorials/
 ### How to create a key-pair on Bionimbus Cloud
 On the login bionimbus cloud ( i.e., login.bionimbus.org ) do 
 
-    # create a keypair
-    > euca-add-keypair bionimbus > bionimbus.priv     
-    # copy your private key to .ssh dir
-    > cp bionimbus.priv  ~/.ssh/id_rsa                
+     # create a keypair
+     > euca-add-keypair bionimbus > bionimbus.priv     
+    
+     # copy your private key to .ssh dir
+     > cp bionimbus.priv  ~/.ssh/id_rsa                
 
 ### How to create a VM and setup environments on Bionimbus Cloud
 1. For how to create a VM on Bionimbus Cloud, login the VM and mount the shared file systems on the VM - see http://www.bionimbus.org/tutorials/bionimbus-cloud-instructions/
@@ -31,7 +32,7 @@ On the login bionimbus cloud ( i.e., login.bionimbus.org ) do
         > . env.sh
 
 ### How to run BWA on Bionimbus Cloud
-1. Create your VM and setup your environments on Bionimbus Cloud - see http://wiki.modencode.org/project/index.php/Resources/Bionimbus-UIC.how.to#How_to_create_a_VM_and_setup_environments_on_Bionimbus_Cloud
+1. Create your VM and setup your environments on Bionimbus Cloud - see http://www.bionimbus.org/tutorials/bionimbus-cloud-instructions/
 
 2. BWA should be in your path now.  The full path for BWA is /glusterfs/data/modencode/modencode-dcc/softwares/aligners/bwa
 
@@ -53,23 +54,23 @@ For example, for Celegans WS220, the full path of this reference indexed by BWA 
         > samtools sort INPUT.bam OUTPUT_PREFIX
 
 ### How to run PeakRanger on Bionimbus Cloud
-1. Create your VM and setup your environments on Bionimbus Cloud - see http://wiki.modencode.org/project/index.php/Resources/Bionimbus-UIC.how.to#How_to_create_a_VM_and_setup_environments_on_Bionimbus_Cloud
+1. Create your VM and setup your environments on Bionimbus Cloud - see http://www.bionimbus.org/tutorials/bionimbus-cloud-instructions/
 
 2. PeakRanger should be in your path now.  The full path for PeaKRanger is /glusterfs/data/modencode/modencode-dcc/softwares/peakcalls/PeakRanger/current.  To use PeakRanger, see http://ranger.sourceforge.net/
 
 ### How to run macs14 on Bionimbus Cloud
-1. Create your VM and setup your environments on Bionimbus Cloud - see http://wiki.modencode.org/project/index.php/Resources/Bionimbus-UIC.how.to#How_to_create_a_VM_and_setup_environments_on_Bionimbus_Cloud
+1. Create your VM and setup your environments on Bionimbus Cloud - see http://www.bionimbus.org/tutorials/bionimbus-cloud-instructions/
 
 2. macs14 should be in your path now.  The full path for macs14 is /glusterfs/data/modencode/modencode-dcc/softwares/peakcalls/MACS/MACS-1.4.1.  To use macs14, see 
 http://liulab.dfci.harvard.edu/MACS/00README.html
 
 ### How to run SPP on Bionimbus Cloud
-1. Create your VM and setup your environments on Bionimbus Cloud - see http://wiki.modencode.org/project/index.php/Resources/Bionimbus-UIC.how.to#How_to_create_a_VM_and_setup_environments_on_Bionimbus_Cloud
+1. Create your VM and setup your environments on Bionimbus Cloud - see http://www.bionimbus.org/tutorials/bionimbus-cloud-instructions/
 
 2. spp should be in your path now.  The full path for spp is /glusterfs/data/modencode/modencode-dcc/softwares/peakcalls/SPP.  To use spp, see http://sites.google.com/site/anshulkundaje/projects/idr.  There is also a tutorial for spp at http://compbio.med.harvard.edu/Supplements/ChIP-seq/tutorial.html.
 
 ### How to run IDR on Bionimbus Cloud
-1. Create your VM and setup your environments on Bionimbus Cloud - see http://wiki.modencode.org/project/index.php/Resources/Bionimbus-UIC.how.to#How_to_create_a_VM_and_setup_environments_on_Bionimbus_Cloud
+1. Create your VM and setup your environments on Bionimbus Cloud - see http://www.bionimbus.org/tutorials/bionimbus-cloud-instructions/
 
 2. IDR should be in your path now.  The full path for IDR is /glusterfs/data/modencode/modencode-dcc/softwares/peakcalls/IDR/idrCode.  To use IDR, click [https://sites.google.com/site/anshulkundaje/projects/idr here]
 
