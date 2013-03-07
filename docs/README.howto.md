@@ -72,5 +72,5 @@ http://liulab.dfci.harvard.edu/MACS/00README.html
 ### How to run IDR on Bionimbus Cloud
 1. Create your VM and setup your environments on Bionimbus Cloud - see http://www.bionimbus.org/tutorials/bionimbus-cloud-instructions/
 
-2. IDR should be in your path now.  The full path for IDR is /glusterfs/data/modencode/modencode-dcc/softwares/peakcalls/IDR/idrCode.  To use IDR, click [https://sites.google.com/site/anshulkundaje/projects/idr here]
+2. IDR should be in your path now.  The full path for IDR is /glusterfs/data/modencode/modencode-dcc/softwares/peakcalls/IDR/idrCode.  For more information on how to use IDR, see https://sites.google.com/site/anshulkundaje/projects/idr
 
